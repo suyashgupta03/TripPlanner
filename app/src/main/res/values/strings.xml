@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SkyScanner</string>
+
+    <string name="label_toolbar">Copenhagen&#160;\u21C6&#160;Paris</string>
+    <string name="label_depart">Depart</string>
+    <string name="label_return">Return</string>
+    <string name="label_depart_with_colon">Depart:&#160;</string>
+    <string name="label_return_with_colon">Return:&#160;</string>
+    <string name="label_multi_airline">Multi-airline</string>
+    <string name="label_double_arrow">&#160;⇉&#160;</string>
+    <string name="label_via">&#160;|&#160;Via&#160;</string>
+    <string name="label_non_stop">&#160;|&#160;Non-Stop</string>
+    <string name="label_usd">&#160;USD</string>
+
+    <string name="error_no_internet">No internet connection. Please check network settings</string>
+</resources>
