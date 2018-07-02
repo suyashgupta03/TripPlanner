@@ -8,7 +8,7 @@
 
         <variable
             name="viewModel"
-            type="com.skyscanner.ui.trip.details.TripDetailsViewModel" />
+            type="com.tripplanner.ui.trip.details.TripDetailsViewModel" />
 
     </data>
 

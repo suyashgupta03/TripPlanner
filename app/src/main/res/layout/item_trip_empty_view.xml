@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="com.skyscanner.ui.trip.details.TripDetailsEmptyItemViewModel" />
+            type="com.tripplanner.ui.trip.details.TripDetailsEmptyItemViewModel" />
 
     </data>
 

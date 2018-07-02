@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.skyscanner.ui.trip.TripActivity">
+    tools:context="com.tripplanner.ui.trip.TripActivity">
 
     <data>
 
@@ -10,7 +10,7 @@
 
         <variable
             name="viewModel"
-            type="com.skyscanner.ui.trip.TripViewModel" />
+            type="com.tripplanner.ui.trip.TripViewModel" />
     </data>
 
     <FrameLayout

@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="com.skyscanner.ui.trip.details.TripDetailItemViewModel" />
+            type="com.tripplanner.ui.trip.details.TripDetailItemViewModel" />
 
     </data>
 
@@ -58,6 +58,7 @@
                     <LinearLayout
                         android:layout_width="@dimen/width_timings_column"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -91,6 +92,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="right"
+                            android:lines="1"
                             android:text="@{viewModel.onewayClass}" />
 
                         <TextView
@@ -98,6 +100,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="right"
+                            android:lines="1"
                             android:text="@{viewModel.onewayCost}" />
                     </LinearLayout>
                 </LinearLayout>
@@ -137,6 +140,7 @@
                     <LinearLayout
                         android:layout_width="@dimen/width_timings_column"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -170,6 +174,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="right"
+                            android:lines="1"
                             android:text="@{viewModel.returnClass}" />
 
                         <TextView
@@ -177,6 +182,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="right"
+                            android:lines="1"
                             android:text="@{viewModel.returnCost}" />
                     </LinearLayout>
 

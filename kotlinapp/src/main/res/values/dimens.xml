@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="width_airline_column">100dp</dimen>
+    <dimen name="width_timings_column">160dp</dimen>
+</resources>
